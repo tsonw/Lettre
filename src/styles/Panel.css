@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.panel_content {
+       font-family: "Pacifico", cursive;
+       font-weight: 300;
+       font-style: normal;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 20px;
+       background-color: #fff;
+       color: rgb(255, 187, 187);
+       width: 80%;
+       height: fit-content;
+       padding: 20px 20px 40px 20px;
+       border-radius: 20px;
+       box-shadow: rgb(255, 255, 255) 0px 1px 4px, rgb(255, 187, 187) 0px 0px 0px 3px;
+}
+
+.panel_button {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 20px;
+}
+
+button {
+       padding: 17px 40px;
+       border-radius: 10px;
+       border: 0;
+       background-color: rgb(255, 56, 86);
+       letter-spacing: 1.5px;
+       font-size: 15px;
+       transition: all 0.3s ease;
+       box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+       color: hsl(0, 0%, 100%);
+       cursor: pointer;
+}
+
+button:hover {
+       box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+button:active {
+       background-color: rgb(255, 56, 86);
+       /*50, 168, 80*/
+       box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+       transform: translateY(5px);
+       transition: 200ms;
+}
+
