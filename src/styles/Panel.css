@@ -18,6 +18,14 @@
        box-shadow: rgb(255, 255, 255) 0px 1px 4px, rgb(255, 187, 187) 0px 0px 0px 3px;
 }
 
+.panel_content > h1 {
+       text-align: center;
+}
+
+.img_panel {
+       width: 80%;
+}
+
 .panel_button {
        display: flex;
        justify-content: center;
